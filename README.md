@@ -1,6 +1,6 @@
-Project Collaborators:
-Eugene Tettey Ayerkain
-Angel Gabriel Adaambiik
+Project Collaborators:  
+Eugene Tettey Ayerkain,  
+Angel Gabriel Adaambiik,  
 Perfect Amegah
 
 
