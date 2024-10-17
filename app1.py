@@ -260,7 +260,7 @@ def main():
                 data['Default_Prediction'] = ["The client is likely to default" if pred == 1 else "The client is unlikely to default" for pred in predictions]
 
                 st.write("### Prediction Results:")
-                st.dataframe(data[['Id', 'Default_Prediction']].head())
+                st.dataframe(data[['Default_Prediction']].head())
 
                 # Option to download the results
                 csv = data.to_csv(index=False).encode('utf-8')
