@@ -319,9 +319,11 @@ def main():
 
                 # Display the result
                 if prediction[0] == 1:
-                    st.write("### Predicted Default Status: **The client is likely to default**")
+                    # st.write("### Predicted Default Status: **The client is likely to default**")
+                    st.markdown("<h3 style='color: red;'>Client likely to default.</h3>", unsafe_allow_html=True)
                 else:
-                    st.write("### Predicted Default Status: **The client is unlikely to default**")
+                    # st.write("### Predicted Default Status: **The client is unlikely to default**")
+                    st.markdown("<h3 style='color: green;'>Client not likely to default.</h3>", unsafe_allow_html=True)
 
             except Exception as e:
                 st.error(f"Error during prediction: {e}")
