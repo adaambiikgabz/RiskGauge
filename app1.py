@@ -8,10 +8,6 @@ from sklearn.pipeline import Pipeline
 
 # Define the mapping dictionary
 mapping_dict = {
-    'Default':{
-        'Y': 1,
-        'N': 0
-    },
     'Home':{
         'OWN': 0,
         'RENT': 1,
